@@ -5,10 +5,12 @@ function Navbar() {
   return (
     <>
       <div className={style.navbar}>
-        <div>Shopping</div>
+        <a href="" className={style.brand}>
+          Shopping
+        </a>
         <div>
-          <div>Cart</div>
-          <div>Sign In</div>
+          <a href="#">Cart</a>
+          <a href="#">Sign In</a>
         </div>
       </div>
     </>

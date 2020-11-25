@@ -1,3 +1,25 @@
 .navbar {
+  color: #fff;
   background-color: #203040;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  padding: 1rem;
+  color: #fff;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #ff8000;
+}
+
+.brand {
+  font-size: 3rem;
+  font-weight: bold;
 }
