@@ -8,13 +8,14 @@
   padding: 0.2rem 1rem;
 }
 
-a {
+.option {
   text-decoration: none;
   padding: 1rem;
   color: #fff;
 }
 
-a:hover {
+.option:hover,
+.brand:hover {
   cursor: pointer;
   color: #ff8000;
 }
@@ -22,4 +23,7 @@ a:hover {
 .brand {
   font-size: 3rem;
   font-weight: bold;
+  text-decoration: none;
+  padding: 1rem;
+  color: #fff;
 }

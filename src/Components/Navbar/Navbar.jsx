@@ -9,8 +9,12 @@ function Navbar() {
           Shopping
         </a>
         <div>
-          <a href="#">Cart</a>
-          <a href="#">Sign In</a>
+          <a href="#" className={style.option}>
+            Cart
+          </a>
+          <a href="#" className={style.option}>
+            Sign In
+          </a>
         </div>
       </div>
     </>
