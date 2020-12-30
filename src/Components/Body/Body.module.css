@@ -3,3 +3,53 @@
   display: flex;
   justify-content: center;
 }
+
+.card {
+  border: 0.1rem solid #c0c0c0;
+  background-color: #f8f8f8;
+  border-radius: 0.5rem;
+  margin: 1rem;
+}
+
+.image {
+  border-radius: 0.5rem;
+  max-width: 29rem;
+  width: 100%;
+}
+
+.cardBody {
+  padding: 1rem;
+}
+
+.name,
+.rating,
+.price {
+  margin-bottom: 0.5rem;
+  /* border: 1px solid black; */
+}
+
+.namelink {
+  text-decoration: none;
+}
+.name {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+.name:hover {
+  color: #ff8000;
+}
+
+.price {
+  font-size: 1.6rem;
+  padding: 1rem 0;
+  margin-top: -1rem;
+}
+
+.star {
+  height: 2rem;
+}
+
+/* .star:hover {
+  background-color: #000;
+} */
