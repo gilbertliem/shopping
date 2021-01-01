@@ -1,7 +1,7 @@
 .body {
   padding: 2rem;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .card {
@@ -34,6 +34,7 @@
 .name {
   font-size: 1.8rem;
   padding: 1rem 0;
+  color: black;
 }
 
 .name:hover {
